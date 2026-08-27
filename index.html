@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmed & Khlood — The Royal Wedding Celebration</title>
+  <meta name="description" content="Request the honor of your presence to celebrate the royal wedding of Ahmed and Khlood on Thursday, September 10, 2026 at Teachers' Club Giza.">
+  <meta name="keywords" content="wedding invitation, Ahmed, Khlood, Teachers Club, Giza, September 10 2026, royal invitation, luxury wedding">
+
+  <!-- Open Graph / WhatsApp / Facebook Preview Meta Tags -->
+  <meta property="og:title" content="Ahmed & Khlood — The Royal Wedding">
+  <meta property="og:description" content="يسعدنا ويشرفنا دعوتكم ومشاركتكم فرحتنا يوم الخميس ١٠ سبتمبر ٢٠٢٦ في قاعة رويال بنادي المعلمين.">
+  <meta property="og:image" content="https://shady-dina.github.io/wedding-invitation/OG.png">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://shady-dina.github.io/wedding-invitation/">
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ahmed & Khlood — The Royal Wedding">
+  <meta name="twitter:description" content="يسعدنا ويشرفنا دعوتكم ومشاركتكم فرحتنا يوم الخميس ١٠ سبتمبر ٢٠٢٦ في قاعة رويال بنادي المعلمين.">
+  <meta name="twitter:image" content="https://shady-dina.github.io/wedding-invitation/OG.png">
+
+  <!-- AOS Animation CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Custom Editorial Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Romantic Wedding Audio Player -->
+  <audio id="wedding-audio" loop preload="auto">
+    <!-- Place your mp3 file downloaded from the YouTube Short here as wedding_song.mp3 -->
+    <source src="wedding_song.mp3" type="audio/mpeg">
+    <!-- High-quality romantic acoustic/strings melody fallback -->
+    <source src="https://cdn.pixabay.com/download/audio/2022/05/16/audio_c2b8316409.mp3?filename=romantic-wedding-piano-110515.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- Delicate Subtle Floating Heart Canvas -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- Floating Language Switcher & Audio Controller -->
+  <div class="controls-group">
+    <button id="lang-toggle" class="lang-switch-btn" title="Switch Language / تغيير اللغة">
+      <i class="fas fa-globe"></i>
+      <span id="lang-label">العربية</span>
+    </button>
+    
+    <button id="audio-toggle" class="audio-toggle" title="Toggle Romantic Melody">
+      <i class="fas fa-volume-mute"></i>
+    </button>
+  </div>
+
+  <!-- ==========================================================================
+       FLAWLESS ROYAL INVITATION CASE / SLEEVE INTRO REVEAL
+       ========================================================================== -->
+  <div id="cinematic-intro">
+    <div id="royal-case-wrapper" class="royal-case-wrapper" data-aos="zoom-in" data-aos-duration="1200">
+      
+      <!-- Hidden Card Inside the Case -->
+      <div class="case-hidden-card">
+        <div style="font-family: var(--font-editorial); font-size: 4rem; letter-spacing: 4px; color: #141414;" dir="ltr">A / K</div>
+        <div style="font-size: 0.8rem; letter-spacing: 5px; text-transform: uppercase; color: #C92A42; margin-top: 12px; font-weight: 600;" data-i18n="case_welcome">WELCOME TO OUR WEDDING</div>
+      </div>
+
+      <!-- Top Sleeve Panel -->
+      <div class="case-panel-top">
+        <div class="case-monogram" dir="ltr">A / K</div>
+        <div class="case-subtitle" data-i18n="case_subtitle">AHMED & KHLOOD</div>
+      </div>
+
+      <!-- Bottom Sleeve Panel -->
+      <div class="case-panel-bottom">
+        <div class="case-footer-text" data-i18n="case_footer">THURSDAY — SEPTEMBER 10, 2026<br>Teachers' Club<br>ROYAL HALL - GIZA</div>
+      </div>
+
+      <!-- Embossed Royal Wax Seal Emblem -->
+      <button id="btn-open-invite" class="royal-wax-seal" title="Tap to unseal the invitation">
+        <span class="seal-initials" dir="ltr">A&K</span>
+        <span class="seal-action" data-i18n="case_unseal">TAP TO OPEN</span>
+      </button>
+
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       MAIN EDITORIAL CARD (SACRED CALLIGRAPHY + ANIMATED MONOGRAM)
+       ========================================================================== -->
+  <main>
+    <section class="hero-section">
+      <div class="editorial-main-card" data-aos="fade-up" data-aos-duration="1400">
+        
+        <!-- Sacred Quranic Calligraphy Display: Bismillah in Black + Verse in Gold -->
+        <div class="sacred-verse-container">
+          <div class="quranic-bismillah">
+            بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
+          </div>
+          <div class="quranic-arabic">
+            ﴿ وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً ﴾
+          </div>
+        </div>
+
+        <div class="hero-script-save" data-i18n="hero_save_date">Save our Date</div>
+        
+        <!-- Animated Layered Monogram / Full Names Overlay -->
+        <div class="hero-monogram-composition" data-aos="fade-up" data-aos-delay="200">
+          <div class="giant-initials" dir="ltr">
+            <span class="initial-m">A</span>
+            <span class="initial-slash">/</span>
+            <span class="initial-s">K</span>
+          </div>
+          <div class="full-names-overlay" dir="ltr">
+            <span data-i18n="name_mohamed">AHMED</span>
+            <span class="plus-divider">+</span>
+            <span data-i18n="name_sama">KHLOOD</span>
+          </div>
+        </div>
+
+        <p class="editorial-invitation-text" data-i18n="hero_invitation_text">
+          WITH JOYFUL HEARTS & BLESSINGS OF OUR FAMILIES<br>
+          IT WOULD BE OUR GREATEST PLEASURE TO HAVE YOU JOIN US<br>
+          AS WE CELEBRATE THE START OF OUR FOREVER<br>
+          AND CREATE MEMORIES TO TREASURE FOR A LIFETIME<br>
+          WE LOOK FORWARD TO CELEBRATING WITH YOU
+        </p>
+
+        <!-- Exact Date Grid with Thin Horizontal Rules -->
+        <div class="editorial-date-grid">
+          <div class="date-side">
+            <span class="date-month" data-i18n="date_month">SEPTEMBER</span>
+            <div class="date-rule"></div>
+            <span class="date-detail" data-i18n="date_day_name">THURSDAY</span>
+          </div>
+          
+          <div class="date-center">
+            10
+          </div>
+          
+          <div class="date-side">
+            <span class="date-month" data-i18n="date_year">2026</span>
+            <div class="date-rule"></div>
+            <span class="date-detail" data-i18n="date_time">8:00 PM</span>
+          </div>
+        </div>
+
+        <div class="venue-editorial-display">
+          <div class="venue-hall-title" data-i18n="venue_hall">Teachers' Club</div>
+          <div class="venue-hall-sub" data-i18n="venue_ballroom">ROYAL HALL - GIZA</div>
+        </div>
+
+        <div class="reception-script" data-i18n="reception">
+          an evening of love, music & joyful celebration to follow
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         ROYAL ARCH PORTAL & LOVE CANVAS ("البوابة الملكية الأندلسية الفاخرة")
+         ========================================================================== -->
+    <section class="artistic-romance-section">
+      <!-- Top Romantic Tagline -->
+      <div class="romance-top-tag" data-aos="fade-down">
+        <span data-i18n="romance_top_tag">Together is a beautiful place to be</span>
+        <span class="tag-symbols">✨ 💍 ✨</span>
+      </div>
+
+      <!-- Single-Line Luxury Monogram Header Above Photo -->
+      <div class="arch-heading-single-line" data-aos="fade-up">
+        <span class="arch-line-ornament"></span>
+        <h2 class="arch-monogram-title" dir="ltr">A & K</h2>
+        <span class="arch-line-ornament"></span>
+      </div>
+
+      <!-- LUXURY ROYAL ARCH PORTAL FRAME -->
+      <div class="grand-arch-portal-wrapper" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="royal-arch-frame" id="royal-arch-portal">
+
+          <!-- Double Gold Arch Outer Border -->
+          <div class="arch-inner-border"></div>
+
+          <!-- Arch Photo Container -->
+          <div class="arch-photo-wrapper">
+            <img src="mohamed.jpeg?v=1" alt="Ahmed & Khlood" class="arch-photo-img">
+            <div class="arch-photo-overlay"></div>
+          </div>
+
+          <!-- Bottom Elegant Gold Caption Ribbon -->
+          <div class="arch-bottom-badge">
+            <span class="badge-names" dir="ltr">AHMED & KHLOOD</span>
+            <span class="badge-date">10 . 09 . 2026</span>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Bottom Romantic Serif Quote -->
+      <blockquote class="romance-editorial-quote" data-aos="fade-up" data-aos-delay="200">
+        "<span data-i18n="romance_quote">I have found the one whom my soul loves. Here is to a lifetime of togetherness.</span>"
+        <span class="quote-symbols">♥ 🔗</span>
+      </blockquote>
+
+      <!-- The Love Journey Arrow & Years -->
+      <div class="journey-arrow-row" data-aos="fade-up" data-aos-delay="400">
+        <!-- Start Year -->
+        <div class="journey-point left-point">
+          <div class="point-label" data-i18n="journey_start_label">Where Our Story Began</div>
+          <div class="point-year" data-i18n="journey_start_year">2025</div>
+        </div>
+
+        <!-- Artistic Hand-Drawn Curly Loop Arrow -->
+        <div class="journey-arrow-center">
+          <svg viewBox="0 0 200 80" class="hand-drawn-arrow-svg">
+            <!-- Smooth artistic loop arrow pointing right -->
+            <path d="M 15 50 Q 60 110, 85 45 Q 100 10, 75 40 Q 65 60, 105 60 Q 140 60, 180 40" fill="none" stroke="var(--text-dark)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M 165 28 L 182 40 L 165 54" fill="none" stroke="var(--text-dark)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </div>
+
+        <!-- Destination Year -->
+        <div class="journey-point right-point">
+          <div class="point-label" data-i18n="journey_moving_label">The Royal Wedding Day</div>
+          <div class="point-year" data-i18n="journey_moving_year">2026</div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- ==========================================================================
+         JULY 2026 EDITORIAL CALENDAR GRID + DUAL CALENDAR BUTTONS
+         ========================================================================== -->
+    <section class="calendar-section">
+      <div class="calendar-card" data-aos="zoom-in-up">
+        <div class="calendar-save-script" data-i18n="cal_save">Mark Your Calendar</div>
+        <div class="calendar-month-title" data-i18n="cal_title">JULY 2026</div>
+
+        <div id="calendar-grid" class="calendar-grid"></div>
+
+        <!-- Dual Direct Calendar Links (Google & Phone .ics) -->
+        <div class="calendar-actions-wrapper">
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Ahmed+%26+Khlood+Royal+Wedding+%E2%99%A5&dates=20260910T170000Z/20260910T220000Z&details=We+are+overjoyed+to+celebrate+our+wedding+with+you!+Doors+open+at+8%3A00+PM+at+Teachers+Club+-+Royal+Hall,+Giza.&location=Teachers+Club,+Al+Bahr+Al+Aazam,+Giza" 
+             target="_blank" rel="noopener noreferrer" class="btn-cal-action btn-google-cal" title="Save directly to Google Calendar">
+            <i class="fab fa-google"></i>
+            <span data-i18n="btn_google">Add to Google Calendar</span>
+          </a>
+
+          <button id="btn-add-calendar" class="btn-cal-action btn-apple-cal" title="Download for iPhone / Outlook / Phone Calendar">
+            <i class="fab fa-apple"></i>
+            <span data-i18n="btn_apple">Save to Apple / Phone (.ics)</span>
+          </button>
+        </div>
+
+        <!-- Embedded Colorful Live Countdown -->
+        <div class="calendar-countdown">
+          <div class="count-unit">
+            <span id="cal-days">--</span>
+            <label data-i18n="unit_days">Days</label>
+          </div>
+          <div class="count-unit">
+            <span id="cal-hours">--</span>
+            <label data-i18n="unit_hours">Hours</label>
+          </div>
+          <div class="count-unit">
+            <span id="cal-mins">--</span>
+            <label data-i18n="unit_mins">Mins</label>
+          </div>
+          <div class="count-unit">
+            <span id="cal-secs">--</span>
+            <label data-i18n="unit_secs">Secs</label>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- ==========================================================================
+         VENUE & LOCATION (WITH VISUAL DETAILS & EMBEDDED MAP PREVIEW)
+         ========================================================================== -->
+    <section class="venue-editorial-section">
+      <div class="venue-card" data-aos="fade-up">
+        <h2 class="venue-title" data-i18n="venue_title">Jewel Sports City Resort & Spa</h2>
+        <div class="venue-subtitle-location" data-i18n="venue_sub">CITADEL HALL</div>
+
+        <div class="location-info-box">
+          <div class="loc-item">
+            <i class="fas fa-clock"></i>
+            <h4 data-i18n="arrival_title">Arrival & Welcome</h4>
+            <p data-i18n="arrival_desc">Doors open at 8:00 PM. We kindly invite our esteemed family & friends to arrive early.</p>
+          </div>
+
+          <div class="loc-item">
+            <i class="fas fa-hotel"></i>
+            <h4 data-i18n="citadel_title">Citadel Hall</h4>
+            <p data-i18n="citadel_desc">Direct reception assistance available.</p>
+          </div>
+
+          <div class="loc-item">
+            <i class="fas fa-compass"></i>
+            <h4 data-i18n="gps_title">Interactive GPS</h4>
+            <p data-i18n="gps_desc">Direct live navigation to the ballroom. Tap below or explore the embedded map.</p>
+          </div>
+        </div>
+
+        <div class="map-preview-wrapper">
+          <iframe 
+            src="https://www.google.com/maps?q=2679%2B239+%D9%86%D8%A7%D8%AF%D9%8A+%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%85%D9%8A%D9%86+%D8%A8%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9,+Al+Bahr+Al+Aazam,+Thaneyah,+Al+Giza,+Giza+Governorate+3726402&hl=ar&z=16&output=embed" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+
+        <div class="buttons-group">
+          <a href="https://www.google.com/maps/search/?api=1&query=2679%2B239+%D9%86%D8%A7%D8%AF%D9%8A+%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%85%D9%8A%D9%86+%D8%A8%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9%2C+Al+Bahr+Al+Aazam%2C+Thaneyah%2C+Al+Giza%2C+Giza+Governorate+3726402" target="_blank" rel="noopener noreferrer" class="btn-editorial btn-primary">
+            <i class="fas fa-location-arrow"></i>
+            <span data-i18n="btn_gps">Open Live GPS Navigation on Google Maps</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-monogram" dir="ltr">A / K</div>
+    <p class="footer-date" data-i18n="footer_intro">THURSDAY — SEPTEMBER 10, 2026<br>Teachers' Club<br>ROYAL HALL - GIZA</p>
+  </footer>
+
+  <!-- AOS Animation JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- GSAP Core & ScrollTrigger -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <!-- Canvas Confetti Library -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <!-- SweetAlert2 Library -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <!-- Custom Interactive Script -->
+  <script src="script.js"></script>
+</body>
+</html>
